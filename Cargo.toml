@@ -229,6 +229,7 @@ all = { level = "warn", priority = -1 }
 lto = "thin"
 codegen-units = 1
 strip = "symbols"
+#incremental = true
 
 [profile.dev]
 opt-level = 0
